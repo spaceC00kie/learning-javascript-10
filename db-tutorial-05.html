@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var randString = "A long " + "string that " + "goes on and on";
+
+      document.write(randString.replace("and on", "forever") + "<br />");
+
+      document.write("At Index 2 : ", randString.charAt(2) + "<br />");
+
+      randString = randString.trim();
+
+      document.write(randString.toUpperCase() + "<br/>");
+      document.write(randString.toLowerCase() + "<br/>");
+    </script>
+  </body>
+</html>
